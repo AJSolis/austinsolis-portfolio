@@ -1,0 +1,91 @@
+@font-face {
+    font-family: 'figtree-italic';
+    src: URL('/assets/fonts/Figtree-Italic-VariableFont_wght.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'figtree';
+    src: URL('/assets/fonts/Figtree-VariableFont_wght.ttf') format('truetype');
+}
+
+body {
+    background-color: #f5d04e;
+}
+
+.card {
+    background-color: #fff;
+    border: solid 2px #000;
+    border-right: solid 6px #000;
+    border-bottom: solid 6px #000;
+    border-radius: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media only screen and (max-width: 500px) {
+    .card {
+        width: 100%;
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+}
+
+
+@media only screen and (min-width: 1000px) {
+    .card {
+        width: 35%;
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+}
+
+.main-img {
+    padding: 5%;
+    border-radius: 15px;
+}
+
+.learning {
+    font-family: 'figtree';
+    font-weight: 800;
+    background-color: #f5d04e;
+    width: 20%;
+    height: 30px;
+    text-align: center;
+    margin-left: 5%;
+    border-radius: 5px;
+}
+
+.publish-date {
+    margin-left: 5%;
+    font-family: 'figtree';
+    font-weight: 500;
+}
+
+.title {
+    margin-left: 5%;
+}
+
+.body-copy {  
+    margin-left: 5%;
+    margin-right: 5%; 
+    font-family: 'figtree-italic';
+    font-weight: 400;
+    font-size: 1vw;
+    color: hsl(0, 0%, 50%);
+}
+
+@media only screen and (max-height: 2000px) {
+    .body-copy {
+        font-size: 1em;
+    }
+}
+
+.user, .name, .profile-img {
+    font-family: 'figtree';
+    font-weight: 800;
+    border-radius: 50%;
+    vertical-align: middle;
+    margin: 3%;
+}
+
+
